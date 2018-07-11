@@ -1,3 +1,4 @@
+ตอนติดตั้ง git ก่อน finish ให้เลือก creditation ด้วย
  git config --global credential.helper wincred
 git config --global user.email "riyasarn.n@gmail.com"
 git config --global user.name "riyasarn"
