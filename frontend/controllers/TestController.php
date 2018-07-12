@@ -18,9 +18,9 @@ class TestController extends \yii\web\Controller
     return $this->render('test1',$param);
     }
 //จบ test1
-    public function actionTest2($name=null)
+    public function actionTest2($name=null,$lname=null)
     {
-
-    return $this->render('test1',$param);
+        $info="You name is $name last name is $lname";
+    return $this->render('test2',['info'=>$info]);
     }
 }
