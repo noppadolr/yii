@@ -1,5 +1,6 @@
 <?php
-use backend\assets\AppAsset;
+use frontend\assets\AppAsset;
+//use vendor\dmstr\yii2-adminlte-asset\web;
 use yii\helpers\Html;
 
 /* @var $this \yii\web\View */
